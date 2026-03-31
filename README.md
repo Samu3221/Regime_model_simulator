@@ -69,3 +69,109 @@ Simulator(extreme_event_probability_historical = Chance of an extreme jump occur
               fill_probability = probability of the order selling and buying thus making the wallet increase or decrease in value ,
               historical_VarAndVol_lookback = How many steps historical price paths variance and volatility needs to be taken as input into the startign boundaries, ,
               with_wallet = weather to display wallet path or not
+
+
+
+Figure 4:
+Simulator(extreme_event_probability_historical=0.0005,
+              extreme_event_probability_forward=0.0005,
+              lamb=1,
+              historical_drift_scalar=5,
+              forward_drift_scalar=3,
+              seed=3,
+              regime_lookBack=5,
+              historical_steps=100,
+              forward_steps=100,
+              tick_time_seconds=0.05,
+              wallet_value=100,
+              fill_probability=0.3)
+
+figure 5:
+Simulator(extreme_event_probability_historical=0.005,
+              extreme_event_probability_forward=0.01,
+              lamb=1,
+              historical_drift_scalar=0.3,
+              forward_drift_scalar=2,
+              seed=14890,
+              regime_lookBack=5,
+              historical_steps=100,
+              forward_steps=100,
+              tick_time_seconds=0.5,
+              wallet_value=100,
+              fill_probability=0.3,
+              historical_VarAndVol_lookback=50)
+
+
+Figure 6:
+Simulator(extreme_event_probability_historical=0.0005,
+              extreme_event_probability_forward=0.0005,
+              lamb=100000,
+              historical_drift_scalar=0,
+              forward_drift_scalar=0,
+              seed=12,
+              regime_lookBack=5,
+              historical_steps=100,
+              forward_steps=100,
+              tick_time_seconds=0.05,
+              wallet_value=100,
+              fill_probability=0.3)
+
+Figure 7:
+Simulator(extreme_event_probability_historical=0.05,
+              extreme_event_probability_forward=0.0005,
+              lamb=1,
+              historical_drift_scalar=0,
+              forward_drift_scalar=0,
+              seed=34,
+              regime_lookBack=5,
+              historical_steps=100,
+              forward_steps=100,
+              tick_time_seconds=0.05,
+              wallet_value=100,
+              fill_probability=0.3)
+Figure 8: 
+
+Simulator(extreme_event_probability_historical=0.0005,
+              extreme_event_probability_forward=0.0005,
+              lamb=1,
+              historical_drift_scalar=5,
+              forward_drift_scalar=3,
+              seed=3,
+              regime_lookBack=5,
+              historical_steps=100,
+              forward_steps=100,
+              tick_time_seconds=0.05,
+              wallet_value=100,
+              fill_probability=0.3)
+
+
+Figure 9-10
+
+Simulator(extreme_event_probability_historical=0.0005,
+              extreme_event_probability_forward=0.0005,
+              lamb=1,
+              historical_drift_scalar=0.4,
+              forward_drift_scalar=2,
+              seed=3,
+              regime_lookBack=5,
+              historical_steps=100,
+              forward_steps=100,
+              tick_time_seconds=0.05,
+              wallet_value=100,
+              fill_probability=0.3)
+              
+figure 11-16:
+
+Simulator(extreme_event_probability_historical=0.005,
+              extreme_event_probability_forward=0.01,
+              lamb=1,
+              historical_drift_scalar=0.3,
+              forward_drift_scalar=2,
+              seed=14890,
+              regime_lookBack=5,
+              historical_steps=100,
+              forward_steps=100,
+              tick_time_seconds=0.5,
+              wallet_value=100,
+              fill_probability=0.3,
+              historical_VarAndVol_lookback=50)
